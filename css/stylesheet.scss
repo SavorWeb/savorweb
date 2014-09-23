@@ -2,6 +2,8 @@ html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockq
   outline: none !important;
 }
 
+$primary: #D12215;
+
 html {
   background: #fff;
 }
@@ -53,7 +55,7 @@ body {
   text-transform: uppercase;
   color: #fff;
   span {
-    color: #1fcdff;
+    color: $primary;
   }
   p {
     letter-spacing: 0.5px;
@@ -72,14 +74,14 @@ body {
 
 #menu {
   a:active {
-    color: #1fcdff;
+    color: $primary;
   }
   select {
     display: none;
   }
   .active a {
     border: 0;
-    color: #1fcdff;
+    color: $primary;
     &:focus, &:active, &:link, &:visited {
       outline: none;
       border: none;
@@ -108,7 +110,7 @@ body {
       &:hover {
         border: none;
         outline: none;
-        color: #1fcdff;
+        color: $primary;
       }
     }
   }
@@ -127,7 +129,7 @@ body {
 }
 
 .camera_caption h2 {
-  border-bottom: 4px solid #1fcdff;
+  border-bottom: 4px solid $primary;
   font-family: 'Open Sans', sans-serif;
   font-size: 100px;
   font-weight: 700;
@@ -485,7 +487,7 @@ body {
       a {
         color: #2f2f2f;
         &:hover {
-          color: #1fcdff;
+          color: $primary;
         }
       }
     }
@@ -789,9 +791,9 @@ body {
     }
     &:hover {
       cursor: pointer;
-      background: #1fcdff;
+      background: $primary;
       color: #fff;
-      box-shadow: 0px 2px 0px 0px #179abf;
+      box-shadow: 0px 2px 0px 0px darken($primary, 10%);
     }
   }
 }
@@ -835,15 +837,15 @@ body {
       padding-top: 11px;
       &:hover {
         cursor: pointer;
-        background: #1fcdff;
+        background: $primary;
         /*color:#fff;*/
-        box-shadow: 0px 2px 0px 0px #179abf;
+        box-shadow: 0px 2px 0px 0px darken($primary, 10%);
       }
     }
   }
   .current {
-    background: #1fcdff;
-    box-shadow: 0px 2px 0px 0px #179abf;
+    background: $primary;
+    box-shadow: 0px 2px 0px 0px darken($primary, 10%);
   }
 }
 
@@ -904,7 +906,7 @@ body {
     font-weight: 300;
   }
   a:hover {
-    color: #1fcdff;
+    color: $primary;
   }
   ul {
     display: block !important;
@@ -983,8 +985,8 @@ body {
       font-family: 'Roboto', 'sans-serif';
       font-weight: 700;
     }
-    box-shadow: 0px 2px 0px 0px #179abf;
-    background: #1fcdff;
+    box-shadow: 0px 2px 0px 0px darken($primary, 10%);
+    background: $primary;
     &:hover {
       background: #2f2f2f;
       box-shadow: 0px 2px 0px 0px #000;
@@ -1076,7 +1078,7 @@ body {
 }
 
 .readMore {
-  color: #1fcdff;
+  color: $primary;
   i {
     font-size: 13px;
   }
@@ -1097,7 +1099,7 @@ body {
     font-weight: 300;
     text-decoration: none;
     &:hover {
-      color: #1fcdff;
+      color: $primary;
     }
   }
   ul {
@@ -1131,7 +1133,7 @@ body {
     padding-right: 5px;
   }
   ul li a:hover {
-    color: #1fcdff;
+    color: $primary;
   }
 }
 
@@ -1305,8 +1307,8 @@ textarea {
 }
 
 .forma .cBtn .send {
-  box-shadow: 0px 2px 0px 0px #179abf;
-  background: #1fcdff;
+  box-shadow: 0px 2px 0px 0px darken($primary, 10%);
+  background: $primary;
   &:hover {
     background: #2f2f2f;
     box-shadow: 0px 2px 0px 0px #000;
@@ -1335,7 +1337,7 @@ textarea {
   }
   a {
     text-decoration: none;
-    color: #1fcdff;
+    color: $primary;
     &:hover {
       color: #666666;
     }
@@ -1535,8 +1537,8 @@ textarea {
     color: #fff;
     border-radius: 0 4px 4px 0;
     text-decoration: none;
-    box-shadow: 0px 2px 0px 0px #179abf;
-    background: #1fcdff;
+    box-shadow: 0px 2px 0px 0px darken($primary, 10%);
+    background: $primary;
     padding: 10px;
     padding-right: 20px;
     padding-left: 20px;
@@ -2001,9 +2003,9 @@ margin-bottom: 35px !important;
 
 #filter li a.selected {
   cursor: pointer;
-  background: #1fcdff;
+  background: $primary;
   color: #fff;
-  box-shadow: 0px 2px 0px 0px #179abf;
+  box-shadow: 0px 2px 0px 0px darken($primary, 10%);
 }
 
 #projects .columns1 .project {

@@ -47,7 +47,7 @@ body {
   text-transform: uppercase;
   color: #fff; }
   .logo span {
-    color: #1fcdff; }
+    color: #D12215; }
   .logo p {
     letter-spacing: 0.5px;
     margin-top: -10px;
@@ -65,12 +65,12 @@ body {
   margin-top: 74px;
   float: right; }
   #menu a:active {
-    color: #1fcdff; }
+    color: #D12215; }
   #menu select {
     display: none; }
   #menu .active a {
     border: 0;
-    color: #1fcdff; }
+    color: #D12215; }
     #menu .active a:focus, #menu .active a:active, #menu .active a:link, #menu .active a:visited {
       outline: none;
       border: none; }
@@ -96,7 +96,7 @@ body {
       #menu li a:hover {
         border: none;
         outline: none;
-        color: #1fcdff; }
+        color: #D12215; }
 
 .gallery {
   height: 500px; }
@@ -106,7 +106,7 @@ body {
   margin-top: 10px; }
 
 .camera_caption h2 {
-  border-bottom: 4px solid #1fcdff;
+  border-bottom: 4px solid #D12215;
   font-family: 'Open Sans', sans-serif;
   font-size: 100px;
   font-weight: 700;
@@ -406,7 +406,7 @@ body {
       .team ul li a {
         color: #2f2f2f; }
         .team ul li a:hover {
-          color: #1fcdff; }
+          color: #D12215; }
 
 .hr1 {
   margin-top: 34px; }
@@ -664,9 +664,9 @@ body {
       font-weight: 700; }
     .cBtn ul li:hover {
       cursor: pointer;
-      background: #1fcdff;
+      background: #D12215;
       color: #fff;
-      box-shadow: 0px 2px 0px 0px #179abf; }
+      box-shadow: 0px 2px 0px 0px #a31a10; }
 
 #filter {
   margin-bottom: 50px !important;
@@ -706,12 +706,12 @@ body {
       padding-top: 11px; }
       #filter li a:hover {
         cursor: pointer;
-        background: #1fcdff;
+        background: #D12215;
         /*color:#fff;*/
-        box-shadow: 0px 2px 0px 0px #179abf; }
+        box-shadow: 0px 2px 0px 0px #a31a10; }
   #filter .current {
-    background: #1fcdff;
-    box-shadow: 0px 2px 0px 0px #179abf; }
+    background: #D12215;
+    box-shadow: 0px 2px 0px 0px #a31a10; }
 
 .pretty {
   margin-top: 45px;
@@ -757,7 +757,7 @@ body {
   font-family: 'Roboto', 'sans-serif';
   font-weight: 300; }
 .view a:hover {
-  color: #1fcdff; }
+  color: #D12215; }
 .view ul {
   display: block !important;
   margin-top: 7px;
@@ -816,8 +816,8 @@ body {
   font-family: 'Roboto', 'sans-serif';
   font-weight: 700; }
 .cBtn .buy {
-  box-shadow: 0px 2px 0px 0px #179abf;
-  background: #1fcdff; }
+  box-shadow: 0px 2px 0px 0px #a31a10;
+  background: #D12215; }
   .cBtn .buy a {
     font-size: 14px;
     font-family: 'Roboto', 'sans-serif';
@@ -899,7 +899,7 @@ body {
   font-weight: 300; }
 
 .readMore {
-  color: #1fcdff; }
+  color: #D12215; }
   .readMore i {
     font-size: 13px; }
 
@@ -915,7 +915,7 @@ body {
   font-weight: 300;
   text-decoration: none; }
   .news h3 a:hover {
-    color: #1fcdff; }
+    color: #D12215; }
 .news ul {
   margin-top: 14px;
   padding-left: 0;
@@ -942,7 +942,7 @@ body {
 .news li i {
   padding-right: 5px; }
 .news ul li a:hover {
-  color: #1fcdff; }
+  color: #D12215; }
 
 .hrNews {
   margin-top: 18px;
@@ -1090,8 +1090,8 @@ textarea {
   font-weight: 700; }
 
 .forma .cBtn .send {
-  box-shadow: 0px 2px 0px 0px #179abf;
-  background: #1fcdff; }
+  box-shadow: 0px 2px 0px 0px #a31a10;
+  background: #D12215; }
   .forma .cBtn .send:hover {
     background: #2f2f2f;
     box-shadow: 0px 2px 0px 0px #000; }
@@ -1115,7 +1115,7 @@ textarea {
     padding-right: 14px; }
   .cont a {
     text-decoration: none;
-    color: #1fcdff; }
+    color: #D12215; }
     .cont a:hover {
       color: #666666; }
 
@@ -1293,8 +1293,8 @@ textarea {
     color: #fff;
     border-radius: 0 4px 4px 0;
     text-decoration: none;
-    box-shadow: 0px 2px 0px 0px #179abf;
-    background: #1fcdff;
+    box-shadow: 0px 2px 0px 0px #a31a10;
+    background: #D12215;
     padding: 10px;
     padding-right: 20px;
     padding-left: 20px; }
@@ -1688,9 +1688,9 @@ margin-bottom: 35px !important;
 }*/
 #filter li a.selected {
   cursor: pointer;
-  background: #1fcdff;
+  background: #D12215;
   color: #fff;
-  box-shadow: 0px 2px 0px 0px #179abf; }
+  box-shadow: 0px 2px 0px 0px #a31a10; }
 
 #projects .columns1 .project {
   width: 100%; }
