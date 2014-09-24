@@ -77,7 +77,6 @@ body {
   #menu li {
     -moz-osx-font-smoothing: grayscale;
     -webkit-font-smoothing: antialiased;
-    border-right: 1px solid #000;
     padding-left: 17px;
     padding-right: 16px;
     float: left;
@@ -99,7 +98,7 @@ body {
         color: #D12215; }
 
 .gallery {
-  height: 500px; }
+  height: 350px; }
 
 #camera_wrap_1 {
   margin-bottom: 0 !important;
